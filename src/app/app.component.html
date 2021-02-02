@@ -1,0 +1,28 @@
+<div class=" container mt-4 text-center">
+    <h2 class="title-perso">Memo</h2>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84e76GnFnE64xep3VsQKGJxEKz4Aqb-7cHw&usqp=CAU" class="img-fluid" alt="photo_syber">
+    <!-- zone de connexion -->
+</div>
+<div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <form action="verification.php" method="POST"></form>
+                <h1>Connexion</h1>
+
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer Votre mot de passe" name="password" required>
+
+                <input type="submit" id='submit' value='LOGIN' required>
+
+            </div>
+
+        </div>
+
+
+        <router-outlet></router-outlet>
